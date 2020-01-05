@@ -13,8 +13,6 @@ var UPNG = {};
 
 	
 
-	
-
 UPNG.toRGBA8 = function(out)
 {
 	var w = out.width, h = out.height;
@@ -809,6 +807,7 @@ UPNG.encode.alphaMul = function(img, roundA) {
 	}
 	return nimg;
 }
+
 
   return UPNG;
 });
